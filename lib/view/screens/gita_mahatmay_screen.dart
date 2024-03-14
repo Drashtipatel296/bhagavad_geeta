@@ -31,21 +31,11 @@ class _GitaMahatmayScreenState extends State<GitaMahatmayScreen> {
               child: Column(
                 children: [
                   Container(
-                    height: 280,
-                    decoration: BoxDecoration(
-                      color: Colors.orangeAccent,
-                      borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.elliptical(250, 50),
-                        bottomRight: Radius.elliptical(250, 50),
-                      ),
-                      gradient: LinearGradient(
-                          colors: [
-                            Colors.orangeAccent,
-                            Colors.orangeAccent,
-                            Color(0xffFADFAA),
-                          ],
-                          begin: Alignment.bottomCenter,
-                          end: Alignment.topCenter),
+                    height: 400,
+                    width: 450,
+                    child: Image.asset(
+                      'asset/img/bg1.png',
+                      fit: BoxFit.cover,
                     ),
                   ),
                 ],
