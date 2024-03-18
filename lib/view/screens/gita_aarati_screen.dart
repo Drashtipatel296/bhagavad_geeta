@@ -32,24 +32,24 @@ class _AaratiScreenState extends State<AaratiScreen> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 400,
+                    height: 500,
                     width: 450,
                     child: Image.asset('asset/img/bg1.png',fit: BoxFit.cover,),
                   ),
                 ],
               ),
             ),
-            Column(
-              children: [
-                SizedBox(
-                  height: 175,
-                  child: Image.asset(
-                    'asset/img/logo.png',
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 50),
+              child: Column(
+                children: [
+                  SizedBox(
+                    height: 175,
+                    child: Image.asset(
+                      'asset/img/logo.png',
+                    ),
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 20),
-                  child: Container(
+                  Container(
                     height: 665,
                     width: 450,
                     decoration: BoxDecoration(
@@ -69,9 +69,8 @@ class _AaratiScreenState extends State<AaratiScreen> {
                             ),
                             child: Column(
                               children: [
-                                Padding(
-                                  padding:
-                                      const EdgeInsets.all(20),
+                                const Padding(
+                                  padding: EdgeInsets.all(20),
                                   child: Text(
                                     'गीता आरती',
                                     style: TextStyle(
@@ -83,11 +82,11 @@ class _AaratiScreenState extends State<AaratiScreen> {
                                   17,
                                   (index) => Text(
                                     arti[index],
-                                    style: TextStyle(fontSize: 20),
+                                    style: const TextStyle(fontSize: 20),
                                   ),
                                 ),
-                                SizedBox(height: 5,),
-                                Divider(thickness: 10,color: Colors.black,),
+                                const SizedBox(height: 5,),
+                                const Divider(thickness: 10,color: Colors.black,),
                               ],
                             ),
                           ),
@@ -95,8 +94,8 @@ class _AaratiScreenState extends State<AaratiScreen> {
                       ],
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ],
         ),

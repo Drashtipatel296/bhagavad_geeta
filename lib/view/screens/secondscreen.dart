@@ -14,10 +14,10 @@ class _SecondScreenState extends State<SecondScreen> {
     double height = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      backgroundColor: Color(0xffFADFAA),
+      backgroundColor: const Color(0xffFADFAA),
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text(
+        title: const Text(
           'श्रीमद भगवद गीता',
           style: TextStyle(
               color: Colors.white,
@@ -39,7 +39,7 @@ class _SecondScreenState extends State<SecondScreen> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 60),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 50),
             child: Column(
               children: [
                 SizedBox(
@@ -60,11 +60,11 @@ class _SecondScreenState extends State<SecondScreen> {
                           Navigator.of(context).pushNamed('/third');
                         },
                         child: Container(
-                            margin: EdgeInsets.only(top: 35),
+                            margin: const EdgeInsets.only(top: 35),
                             height: 85,
                             width: 370,
                             decoration: BoxDecoration(
-                              gradient: LinearGradient(
+                              gradient: const LinearGradient(
                                 colors: [
                                   Color(0xffFDB013),
                                   Color(0xffFDB013),
@@ -77,8 +77,8 @@ class _SecondScreenState extends State<SecondScreen> {
                             child: Row(
                               children: [
                                 Image.asset('asset/img/sec1.png'),
-                                SizedBox(width: 75),
-                                Text(
+                                const SizedBox(width: 75),
+                                const Text(
                                   'भगवद गीता',
                                   style: TextStyle(
                                       fontSize: 30, fontWeight: FontWeight.w500),
@@ -92,11 +92,11 @@ class _SecondScreenState extends State<SecondScreen> {
                           Navigator.of(context).pushNamed('/saar');
                         },
                         child: Container(
-                          margin: EdgeInsets.only(top: 10),
+                          margin: const EdgeInsets.only(top: 10),
                           height: 85,
                           width: 370,
                           decoration: BoxDecoration(
-                            gradient: LinearGradient(
+                            gradient: const LinearGradient(
                               colors: [
                                 Color(0xffFDB013),
                                 Color(0xffFDB013),
@@ -109,8 +109,8 @@ class _SecondScreenState extends State<SecondScreen> {
                           child: Row(
                             children: [
                               Image.asset('asset/img/sec2.png', height: 72),
-                              SizedBox(width: 90),
-                              Text(
+                              const SizedBox(width: 90),
+                              const Text(
                                 'गीता सार',
                                 style: TextStyle(
                                     fontSize: 30, fontWeight: FontWeight.w500),
@@ -124,11 +124,11 @@ class _SecondScreenState extends State<SecondScreen> {
                           Navigator.of(context).pushNamed('/mahatmay');
                         },
                         child: Container(
-                          margin: EdgeInsets.only(top: 10),
+                          margin: const EdgeInsets.only(top: 10),
                           height: 85,
                           width: 370,
                           decoration: BoxDecoration(
-                            gradient: LinearGradient(
+                            gradient: const LinearGradient(
                               colors: [
                                 Color(0xffFDB013),
                                 Color(0xffFDB013),
@@ -141,8 +141,8 @@ class _SecondScreenState extends State<SecondScreen> {
                           child: Row(
                             children: [
                               Image.asset('asset/img/sec3.png', height: 79),
-                              SizedBox(width: 70),
-                              Text(
+                              const SizedBox(width: 70),
+                              const Text(
                                 'गीता माहात्म्य',
                                 style: TextStyle(
                                     fontSize: 30, fontWeight: FontWeight.w500),
@@ -156,11 +156,11 @@ class _SecondScreenState extends State<SecondScreen> {
                           Navigator.of(context).pushNamed('/aarati');
                         },
                         child: Container(
-                          margin: EdgeInsets.only(top: 10),
+                          margin: const EdgeInsets.only(top: 10),
                           height: 85,
                           width: 370,
                           decoration: BoxDecoration(
-                            gradient: LinearGradient(
+                            gradient: const LinearGradient(
                               colors: [
                                 Color(0xffFDB013),
                                 Color(0xffFDB013),
@@ -173,8 +173,8 @@ class _SecondScreenState extends State<SecondScreen> {
                           child: Row(
                             children: [
                               Image.asset('asset/img/sec4.png', height: 79),
-                              SizedBox(width: 75),
-                              Text(
+                              const SizedBox(width: 75),
+                              const Text(
                                 'गीता आरती',
                                 style: TextStyle(
                                     fontSize: 30, fontWeight: FontWeight.w500),

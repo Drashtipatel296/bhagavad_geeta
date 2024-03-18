@@ -12,11 +12,11 @@ class _GitaMahatmayScreenState extends State<GitaMahatmayScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffFADFAA),
+      backgroundColor: const Color(0xffFADFAA),
       appBar: AppBar(
         backgroundColor: Colors.black,
         iconTheme: const IconThemeData(color: Colors.white),
-        title: Text(
+        title: const Text(
           'श्रीमद भगवद गीता',
           style: TextStyle(
             color: Colors.white,
@@ -30,8 +30,8 @@ class _GitaMahatmayScreenState extends State<GitaMahatmayScreen> {
             Expanded(
               child: Column(
                 children: [
-                  Container(
-                    height: 400,
+                  SizedBox(
+                    height: 500,
                     width: 450,
                     child: Image.asset(
                       'asset/img/bg1.png',
@@ -42,7 +42,7 @@ class _GitaMahatmayScreenState extends State<GitaMahatmayScreen> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 25),
+              padding: const EdgeInsets.symmetric(vertical: 50),
               child: Column(
                 children: [
                   SizedBox(
@@ -72,8 +72,8 @@ class _GitaMahatmayScreenState extends State<GitaMahatmayScreen> {
                               ),
                               child: Column(
                                 children: [
-                                  Padding(
-                                    padding: const EdgeInsets.all(20),
+                                  const Padding(
+                                    padding: EdgeInsets.all(20),
                                     child: Text(
                                       'गीता माहात्म्य',
                                       style: TextStyle(
@@ -89,16 +89,16 @@ class _GitaMahatmayScreenState extends State<GitaMahatmayScreen> {
                                       child: Text(
                                         mahatmaylist[index],
                                         textAlign: TextAlign.center,
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                             fontSize: 21,
                                             fontWeight: FontWeight.w400),
                                       ),
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 6,
                                   ),
-                                  Divider(
+                                  const Divider(
                                     thickness: 10,
                                     color: Colors.black,
                                   ),

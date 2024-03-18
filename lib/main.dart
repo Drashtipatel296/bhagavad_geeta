@@ -20,13 +20,13 @@ class GeetaApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/splash',
       routes: {
-         '/splash' : (context) =>  SplashScreen(),
-         '/second' : (context) => SecondScreen(),
-         '/third' : (context) => BhagavadGeeta(),
-         '/shlok' : (context) => ShlokScreen(),
-         '/saar' : (context) => GitasaarScreen(),
-         '/mahatmay' : (context) => GitaMahatmayScreen(),
-         '/aarati' : (context) => AaratiScreen(),
+         '/splash' : (context) =>  const SplashScreen(),
+         '/second' : (context) => const SecondScreen(),
+         '/third' : (context) => const BhagavadGeeta(),
+         '/shlok' : (context) => const ShlokScreen(),
+         '/saar' : (context) => const GitasaarScreen(),
+         '/mahatmay' : (context) => const GitaMahatmayScreen(),
+         '/aarati' : (context) => const AaratiScreen(),
       },
     );
   }

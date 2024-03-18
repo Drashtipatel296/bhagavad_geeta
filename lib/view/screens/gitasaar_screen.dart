@@ -9,7 +9,6 @@ class GitasaarScreen extends StatefulWidget {
 }
 
 class _GitasaarScreenState extends State<GitasaarScreen> {
-
   int index = 0;
 
   @override
@@ -34,7 +33,7 @@ class _GitasaarScreenState extends State<GitasaarScreen> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 400,
+                    height: 500,
                     width: 450,
                     child: Image.asset(
                       'asset/img/bg1.png',
@@ -45,7 +44,7 @@ class _GitasaarScreenState extends State<GitasaarScreen> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 40),
+              padding: const EdgeInsets.symmetric(vertical: 50),
               child: Column(
                 children: [
                   SizedBox(
@@ -75,8 +74,8 @@ class _GitasaarScreenState extends State<GitasaarScreen> {
                               ),
                               child: Column(
                                 children: List.generate(
-                                    data[1]['bhaags'].length,
-                                    (index) => buildContainer(index),
+                                  data[1]['bhaags'].length,
+                                  (index) => buildContainer(index),
                                 ),
                               ),
                             ),
@@ -93,50 +92,52 @@ class _GitasaarScreenState extends State<GitasaarScreen> {
       ),
     );
   }
+
   Widget buildContainer(int index) {
     double height = MediaQuery.of(context).size.height;
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 5),
       child: Container(
-          padding: EdgeInsets.all(10),
-          width: double.infinity,
-          decoration: BoxDecoration(
-              color: Colors.orangeAccent,
-              borderRadius: BorderRadius.all(Radius.circular(8)),
-              border: Border(bottom: BorderSide(width: 10))),
-          child: Column(
-            children: [
-              Text(
-                data[1]['bhaags'][index]['id'],
-                textAlign: TextAlign.center,
+        padding: const EdgeInsets.all(10),
+        width: double.infinity,
+        decoration: const BoxDecoration(
+            color: Colors.orangeAccent,
+            borderRadius: BorderRadius.all(Radius.circular(8)),
+            border: Border(bottom: BorderSide(width: 10))),
+        child: Column(
+          children: [
+            Text(
+              data[1]['bhaags'][index]['id'],
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: height / 55,
+                fontWeight: FontWeight.w400,
+                color: Colors.black,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                data[1]['bhaags'][index]['name'],
                 style: TextStyle(
-                  fontSize: height / 55,
-                  fontWeight: FontWeight.w400,
+                  fontSize: height / 40,
+                  fontWeight: FontWeight.w300,
                   color: Colors.black,
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(10),
-                child: Text(
-                  data[1]['bhaags'][index]['name'],
-                  style: TextStyle(
-                    fontSize: height / 40,
-                    fontWeight: FontWeight.w300,
-                    color: Colors.black,
-                  ),
-                ),
+            ),
+            Text(
+              data[1]['bhaags'][index]['meaning'],
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: height / 53,
+                fontWeight: FontWeight.w400,
+                color: Colors.black,
               ),
-              Text(
-                data[1]['bhaags'][index]['meaning'],
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: height / 53,
-                  fontWeight: FontWeight.w400,
-                  color: Colors.black,
-                ),
-              ),
-            ],
-          )),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

@@ -35,7 +35,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 400,
+                    height: 500,
                     width: 450,
                     child: Image.asset('asset/img/bg1.png',fit: BoxFit.cover,),
                   ),
@@ -43,7 +43,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 50),
               child: Column(
                 children: [
                   SizedBox(
@@ -179,7 +179,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -201,14 +201,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][2]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][2]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -231,7 +231,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -253,14 +253,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][3]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][3]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -284,7 +284,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -306,14 +306,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][4]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][4]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -336,7 +336,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -358,14 +358,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][5]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][5]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -389,7 +389,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -411,14 +411,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][6]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][6]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -441,7 +441,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -463,14 +463,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][7]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][7]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -494,7 +494,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -516,14 +516,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][8]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][8]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -546,7 +546,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -568,14 +568,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][9]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][9]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -599,7 +599,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -621,14 +621,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][10]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][10]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -651,7 +651,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -673,14 +673,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][11]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][11]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -704,7 +704,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -726,14 +726,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][12]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][12]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -756,7 +756,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -778,14 +778,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][13]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][13]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -809,7 +809,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -831,14 +831,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][14]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][14]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -861,7 +861,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -883,14 +883,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][15]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][15]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,
@@ -914,7 +914,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                 height: 85,
                                 width: 370,
                                 decoration: BoxDecoration(
-                                  gradient: LinearGradient(
+                                  gradient: const LinearGradient(
                                     colors: [
                                       Color(0xffFDB013),
                                       Color(0xffFDB013),
@@ -936,14 +936,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                         children: [
                                           Text(
                                             data[index]['Bhaags'][16]['id'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 15,
                                               color: Colors.black,
                                             ),
                                           ),
                                           Text(
                                             data[index]['Bhaags'][16]['name'],
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                               fontSize: 25,
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
@@ -966,7 +966,7 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                               height: 85,
                               width: 370,
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   colors: [
                                     Color(0xffFDB013),
                                     Color(0xffFDB013),
@@ -988,14 +988,14 @@ class _BhagavadGeetaState extends State<BhagavadGeeta> {
                                       children: [
                                         Text(
                                           data[index]['Bhaags'][17]['id'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 15,
                                             color: Colors.black,
                                           ),
                                         ),
                                         Text(
                                           data[index]['Bhaags'][17]['name'],
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w500,
                                             color: Colors.black,

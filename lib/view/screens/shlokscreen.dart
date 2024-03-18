@@ -34,7 +34,7 @@ class _ShlokScreenState extends State<ShlokScreen> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 450,
+                    height: 500,
                     width: 450,
                     child: Image.asset(
                       'asset/img/bg1.png',
@@ -49,7 +49,7 @@ class _ShlokScreenState extends State<ShlokScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 40),
                   child: SizedBox(
-                    height: 175,
+                    height: 180,
                     child: Image.asset(
                       'asset/img/logo.png',
                     ),
@@ -106,30 +106,30 @@ Container buildContainer(int index) {
             padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
             child: Text(
               data[0]['Bhaags'][shlokIndex]['id'],
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w400,
-                color: const Color(0xFF2E2E2E),
+                color: Color(0xFF2E2E2E),
               ),
             ),
           ),
         if (index == 0)
           Text(
             data[0]['Bhaags'][shlokIndex]['name'],
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w400,
-              color: const Color(0xFF2E2E2E),
+              color: Color(0xFF2E2E2E),
             ),
           ),
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 20),
           child: Text(
             data[0]['Bhaags'][shlokIndex]['shloks'][index]['shlok'],
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w400,
-              color: const Color(0xFF2E2E2E),
+              color: Color(0xFF2E2E2E),
             ),
             textAlign: TextAlign.center,
           ),
@@ -139,10 +139,10 @@ Container buildContainer(int index) {
           child: Text(
             data[0]['Bhaags'][shlokIndex]['shloks'][index]['meaning'],
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w400,
-              color: const Color(0xFF2E2E2E),
+              color: Color(0xFF2E2E2E),
             ),
           ),
         ),
