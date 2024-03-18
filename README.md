@@ -22,7 +22,9 @@ samples, guidance on mobile development, and a full API reference.
 <img src="https://github.com/Drashtipatel296/bhagavad_geeta/assets/143180636/5b32ff5d-8dfb-469e-a7df-af8d9e595d8a" height=35%, width=25%>
 <img src="https://github.com/Drashtipatel296/bhagavad_geeta/assets/143180636/a8453b0c-8773-4a2f-b195-b4d8270f96fb" height=35%, width=25%>
 <img src="https://github.com/Drashtipatel296/bhagavad_geeta/assets/143180636/5199c300-814f-43b6-b43c-d35f590ad0cf" height=35%, width=25%>
+<img src="https://github.com/Drashtipatel296/bhagavad_geeta/assets/143180636/58fc2018-2ff4-4e7a-9387-82bf702d3226" height=35%, width=25%>
 <img src="https://github.com/Drashtipatel296/bhagavad_geeta/assets/143180636/91b238b8-ffeb-44bb-b442-dac4cdc47d29" height=35%, width=25%>
+
 
 
 
